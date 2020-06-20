@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+
+/* Header section start here */
+header {
+    background: #8259F6;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header-first {
+    padding-top: 30px;
+}
+
+.logo-part {
+    width: 20%;
+    float: left;
+}
+
+.logo-part img {}
+
+.menu-part {
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+
+.menu-part nav {}
+
+.menu-part nav ul {}
+
+.menu-part nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu-part nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+}
+
+.menu-part nav ul li a:hover {}
+
+.header-second {
+    padding: 179px 0px 150px 0px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.header-second h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.header-second p {
+    font-size: 17px;
+    color: #fff;
+    margin-top: 18px;
+    line-height: 28px;
+    font-family: 'PT Serif', serif;
+}
+
+/* Header section end here */
+/* unlock section start here */
+.unlock {
+    background: #fff;
+    padding: 70px 0;
+}
+
+.unlock-main {
+    width: 50%;
+    float: left;
+}
+
+.unlock-content {
+    padding: 10px 50px;
+}
+
+.unlock-content h2 {
+    font-size: 29px;
+    color: #222D39;
+    padding-top: 14px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.unlock-content p {
+    font-size: 17px;
+    color: #AF9FB6;
+    padding-top: 19px;
+    font-family: 'PT Serif', serif;
+}
+
+.unlock-image {
+    width: 50%;
+    float: left;
+}
+
+.unlock-image img {
+    padding: 10px 0px 0px 28px;
+}
+
+/* unlock section end here */
+/* instant section start here */
+
+.instant {
+    background: #fff;
+    padding: 70px 0;
+}
+
+.instant-main {
+    width: 50%;
+    float: left;
+}
+
+.instant-content {
+    padding: 10px 50px;
+}
+
+.instant-content h2 {
+    font-size: 29px;
+    color: #222D39;
+    padding-top: 14px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.instant-content p {
+    font-size: 17px;
+    color: #AF9FB6;
+    padding-top: 19px;
+    font-family: 'PT Serif', serif;
+}
+
+.instant-image {
+    width: 50%;
+    float: left;
+}
+
+.instant-image img {
+    padding: 10px 28px 0px 0px;
+}
+
+/* instant section end here */
+/* porttitor section start here */
+.porttitor {
+    background: #fff;
+    padding: 70px 0;
+}
+
+.porttitor-main {
+    width: 50%;
+    float: left;
+}
+
+.porttitor-content {
+    padding: 30px 50px;
+}
+
+.porttitor-content h2 {
+    font-size: 28px;
+    color: #222D39;
+    padding-top: 14px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.porttitor-content p {
+    font-size: 17px;
+    color: #AF9FB6;
+    padding-top: 19px;
+    font-family: 'PT Serif', serif;
+}
+
+.porttitor-image {
+    width: 50%;
+    float: left;
+}
+
+.porttitor-image img {
+    padding: 10px 0px 0px 28px;
+}
+
+/* porttitor section end here */
+/* /* consect section start here */
+.consect {
+    padding-top: 22px;
+}
+
+.consect a {
+    text-decoration: navajowhite;
+    display: inline-block;
+    padding: 12px 35px;
+    background: #5E2CED;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.consect a:hover {
+    border: 1px solid #5E2CED;
+    color: #5E2CED;
+    background: transparent;
+}
+
+/* consect section end here */
+/* footer part start here */
+footer {
+    background-image: linear-gradient(to top, #00000021, #0000, #0000000a), url(../images/footer_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /*! padding: 70px 0px; */
+}
+
+.footer-about {
+    width: 25%;
+    float: left;
+    padding: 50px 0px 288px;
+}
+
+.footer-about img {}
+
+.footer-about p {
+    font-size: 16px;
+    padding-top: 19px;
+    color: #00000091;
+}
+
+
+.footer-about h4 {
+    font-size: 18px;
+    color: #00000091;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.footer-about ul {}
+
+.footer-about ul li {
+    list-style: none;
+}
+
+.footer-about ul li a {
+    text-decoration: navajowhite;
+    font-size: 16px;
+    color: #00000091;
+    padding-top: 16px;
+    display: inline-block;
+}
+
+.footer-about ul li a:hover {
+    color: #000;
+}
+
+.footer-row {}
+
+.footer-menu {
+    padding-left: 94px;
+}
